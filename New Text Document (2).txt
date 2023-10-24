@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+
+Dictionary<string, int> programmingLanguages = new Dictionary<string, int>();
+        programmingLanguages.Add("C", 1972);
+        programmingLanguages.Add("C++", 1983);
+        programmingLanguages.Add("Java", 1995);
+        programmingLanguages.Add("Python", 1989);
+        programmingLanguages.Add("C#", 2000);
+
+        
+        List<KeyValuePair<string, int>> sortedLanguages = new List<KeyValuePair<string, int>>(programmingLanguages);
+
+               sortedLanguages.Sort((pair1, pair2) => pair1.Value.CompareTo(pair2.Value));
+
+        foreach (var language in sortedLanguages)
+        {
+            Console.WriteLine($"{language.Key} ({language.Value})");
+        }
+
+//********************************************************************************************************************
+Hashtable:
+Hashtable açar-dəyər cütlərini saxlamaq üçün istifadə edilən məlumat strukturudur. C# kolleksiyalarında o, System.Collections ad məkanında yerləşir.
+Açar dəyəri təmsil edən unikal açarla əlaqələndirilir.
+Əlavə, silmə və giriş əməliyyatları sürətlidir, çünki hər bir açarın hash dəyəri hesablanır və bu dəyərlərlə açarlar cədvəli yaradılır.
+Hashtable açar-dəyər cütlərini tez axtarmaq üçün faydalıdır, lakin o, sifarişli məlumat strukturu deyil.
+LinkedList:
+
+LinkedList məlumat strukturudur və C# kolleksiya siniflərində mövcuddur.
+Məlumatları əlaqəli siyahı şəklində saxlayır. Hər bir element növbəti elementə işarə edir.
+Bağlantılar müntəzəm olaraq yeniləndiyi üçün əlavə və silmə əməliyyatları çox sürətlidir.
+Bununla belə, təsadüfi giriş yavaş ola bilər, çünki istədiyiniz elementə çatmaq üçün sıfırdan başlamalısınız.
+Xüsusilə dinamik məlumat strukturları yaratmaq üçün istifadə olunur.
