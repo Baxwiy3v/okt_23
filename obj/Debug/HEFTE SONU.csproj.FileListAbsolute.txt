@@ -1,0 +1,7 @@
+C:\Users\asus\Desktop\HEFTE SONU\bin\Debug\HEFTE SONU.exe.config
+C:\Users\asus\Desktop\HEFTE SONU\bin\Debug\HEFTE SONU.exe
+C:\Users\asus\Desktop\HEFTE SONU\bin\Debug\HEFTE SONU.pdb
+C:\Users\asus\Desktop\HEFTE SONU\obj\Debug\HEFTE SONU.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\HEFTE SONU\obj\Debug\HEFTE SONU.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\HEFTE SONU\obj\Debug\HEFTE SONU.exe
+C:\Users\asus\Desktop\HEFTE SONU\obj\Debug\HEFTE SONU.pdb
